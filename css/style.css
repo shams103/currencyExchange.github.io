@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.box{
+
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.2);
+    max-width: 55rem;
+    height: 35rem;
+    border-radius: .5rem;
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
+
+.box .content{
+  
+    overflow: hidden;
+    text-align: center;
+    height: 50%;
+    margin-bottom: 1.5rem;    
+}
+.box .content img{
+    height: 66%;
+    margin-bottom: .4rem;
+}
+.box .content h2{
+    font-size: 1.8rem;
+    margin-bottom: .8rem;
+}
+
+.box .content p{
+    font-size: 1.5rem;
+    
+}
+
+.box .exchange{
+ 
+    height: 45%;
+}
+
+.box .exchange .currency{
+ 
+    width: 85%;
+    margin: 1.5rem auto;
+    padding: .5rem 0;  
+}
+.box .exchange .currency select{
+    
+    padding: .7rem ;
+    border-radius: .4rem;
+    width: 14%;
+    margin-right: 40%;  
+}
+
+.box .exchange .currency input{
+    padding: .7rem 1rem;
+    text-align: right;
+    font-size: 1.3rem;
+    width: 45%;
+    border: none;    
+}
+
+.box .exchange .currency input:focus{
+    background: #ebc2c2;
+}
+    
+
+.box .exchange .swap-rate-btn {
+   
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+.swap-rate-btn .btn{
+    border: none;
+    text-align: center;
+    border-radius: .5rem;
+    width: 25%;
+    padding: .6rem 1.5rem;
+    font-size: 1.2rem;
+    background: rgb(238, 77, 77);
+    cursor: pointer;
+}
+
+.swap-rate-btn .rate{
+    font-size: 1.5rem;
+    margin-left: 30%;
+    width: 70%;
+    padding: .5rem;
+    text-align: center;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 450px){
+    
+    .box .content h2{
+        font-size: 1.5rem;
+}
+.box .content p{
+    font-size: 1rem;
+    padding: 0 1rem;    
+
+}
+.box .exchange .currency select{
+    width: 30%;
+   
+}
+
+.box .exchange .swap-rate-btn {
+    display: block;
+    text-align: center;
+   
+}
+.box .exchange .swap-rate-btn .btn{
+    width: 35%;
+    font-size: .9rem;
+}
+.box .exchange .swap-rate-btn .rate{
+    margin-top: 1rem;
+    width: 100%;
+    margin-left: 0;
+    
+}
+}
+
+
+
+@media(max-width: 630px){
+    .box .content h2{
+        font-size: 1.3rem;
+}
+.box .content p{
+    font-size: 1rem;
+    padding: 0 1rem;
+    
+}
+.box .exchange .currency select{
+    width: 30%;
+    margin-right: 30%;
+
+}
+
+}
+
+@media(min-width: 350px) and (max-width: 629px){
+    .box .exchange .currency select{
+        width: 22%;
+        padding: .7rem .3rem;
+      
+    } 
+
+    .swap-rate-btn .rate{
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+@media(max-width: 350px){
+    .box .exchange .currency select{ 
+        margin-right: 20%;
+}
+}
+ 

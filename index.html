@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="content">
+            <img src="images/hjk.png" alt="">
+            <h2>Exchange Rate Calculator</h2>
+            <p>Choose the currency and the amounts to get the exchange rate</p>
+        </div>
+
+        <div class="exchange">
+            <div class="currency">
+                <select id="currency-one">
+                    <option value="USD" selected>USD</option>
+                    <option value="RUB">RUB</option>
+                    <option value="ARS">ARS</option>
+                    <option value="BOB">BOB</option>
+                    <option value="AUD">AUD</option>
+                    <option value="AMD">AMD</option>
+                    <option value="ANG">ANG</option>
+                    <option value="USD">USD</option>
+                    <option value="ALL">ALL</option>
+                    <option value="BAM">BAM</option>
+                    <option value="ZAR">ZAR</option>
+                    <option value="AZN">AZN</option>
+                    <option value="AOA">AOA</option>
+                </select>
+                <input type="number" id="amount-one" value="1" placeholder="0">
+            </div>
+
+            <div class="swap-rate-btn">
+                <button class="btn" id="swap">Swap</button>
+                <div class="rate" id="rate"></div>
+            </div>
+
+            <div class="currency">
+                <select id="currency-two">
+                    <option value="INR" selected>INR</option>
+                    <option value="RUB">RUB</option>
+                    <option value="ARS">ARS</option>
+                    <option value="BOB">BOB</option>
+                    <option value="AUD">AUD</option>
+                    <option value="AMD">AMD</option>
+                    <option value="ANG">ANG</option>
+                    <option value="USD">USD</option>
+                    <option value="ALL">ALL</option>
+                    <option value="BAM">BAM</option>
+                    <option value="ZAR">ZAR</option>
+                    <option value="AZN">AZN</option>
+                    <option value="AOA">AOA</option>
+                </select>
+                <input type="number" id="amount-two" value="1" >
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
