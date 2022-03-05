@@ -171,5 +171,8 @@
     .box .exchange .currency select{ 
         margin-right: 20%;
 }
+    .box .exchange .currency{
+        margin: 1rem auto;
+    }
 }
  
